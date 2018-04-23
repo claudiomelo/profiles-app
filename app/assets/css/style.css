@@ -1,0 +1,48 @@
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+	display: block;
+	line-height: 1.428571429;
+	color: #999;
+}
+
+.no-border-radius{
+	border-radius: 0px !important;
+}
+
+.card {
+  box-shadow: -1px 4px 8px 3px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 30px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}

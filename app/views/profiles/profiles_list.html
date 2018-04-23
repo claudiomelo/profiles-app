@@ -1,0 +1,19 @@
+<div class="container" id="profiles-content">
+	<div class="col-sm-4" ng-repeat="profileData in profilesData" id="profile-{{profileData.id}}">
+		<div class="card">
+			<img src="{{profileData.img}}" alt="{{profileData.name}}" style="height:270px">
+			<h1>{{profileData.name}}</h1>
+			<p class="title">{{profileData.last_name}}</p>
+			<p>{{profileData.date_of_birth}}</p>
+			<p>{{profileData.email}}</p>
+			<div style="margin: 24px 0;">
+				<a href="#"><i class="fa fa-dribbble"></i></a> 
+				<a href="#"><i class="fa fa-twitter"></i></a>  
+				<a href="#"><i class="fa fa-linkedin"></i></a>  
+				<a href="#"><i class="fa fa-facebook"></i></a> 
+			</div>
+			<p><button ng-click="remove(profileData.id)">Delete</button></p>
+		</div>	
+	</div>
+	<div class="load-on-mouse-whell" onmousewheel="alert('mouse passou aki')"></div>
+</div>
