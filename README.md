@@ -1,4 +1,5 @@
 SAMPLE SHOW PERFIS WITH ANGULAR AND NODEJS
+(OBS: If you have problem with Access-Control-Expose-Headers, to run in your machine, you just need to install this chrome extension "Access-Control-Expose-Headers")
 
 1 – Installation
 
